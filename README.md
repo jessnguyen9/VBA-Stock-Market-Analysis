@@ -36,15 +36,15 @@ Computes:
 
 The script dynamically processes all sheets, ensuring automation across multiple datasets.
 
-Stock Data Year 2018
+### Stock Data Year 2018
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/d7193e43-46cf-4ed7-93a7-0ac05147ebc1)
 
-Stock Data Year 2019
+### Stock Data Year 2019
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/224b5101-a287-4c19-bb1f-aaf35c6b1a31)
 
-Stock Data Year 2020
+### Stock Data Year 2020
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/310771a5-8648-43ac-8d28-5be6a26448f0)
 
