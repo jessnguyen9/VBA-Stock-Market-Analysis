@@ -14,21 +14,26 @@ Applies conditional formatting to highlight positive and negative yearly changes
 
 ## Analysis Details
 1. **Data Extraction**
+
 Retrieves ticker symbols, stock volume, open price, and close price.
 
 2. **Column Creation**
+
 Adds new columns for Ticker, Yearly Change, Percent Change, and Total Stock Volume.
 
 3. **Conditional Formatting**
+
 Highlights positive yearly changes in green and negative changes in red.
 
 4. **Metrics Calculations**
+
 Computes:
 - Greatest % Increase
 - Greatest % Decrease
 - Greatest Total Volume
 
 5. **Looping Through Worksheets**
+
 The script dynamically processes all sheets, ensuring automation across multiple datasets.
 
 Stock Data Year 2018
