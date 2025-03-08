@@ -1,52 +1,53 @@
-# VBA-challenge
+# VBA Stock Market Analysis
 
-This project involves using VBA scripting to analyze stock market data for a given year. The VBA script loops through the data and calculates various metrics for each stock, including the ticker symbol, yearly change, percentage change, and total stock volume.
+## Overview
+This project uses VBA scripting to analyze stock market data across multiple worksheets. The script automates data retrieval, calculations, and formatting, providing insights into stock performance for a given year.
 
-**ANALYSIS DETAILS**
+## Features
+Extracts and processes stock data across multiple sheets.
 
-**1. Retrieval of Data**
+Calculates yearly change, percentage change, and total stock volume for each ticker.
 
-The script successfully loops through one year of stock data and retrieves the following values from each row:
-  
-  Ticker Symbol
-  
-  Volume of Stock
-  
-  Open Price
-  
-  Close Price
+Identifies the greatest percentage increase, greatest percentage decrease, and highest total volume.
 
-**2. Column Creation**
+Applies conditional formatting to highlight positive and negative yearly changes.
 
-**3. Conditional Formatting**
+## Analysis Details
+1. **Data Extraction**
+Retrieves ticker symbols, stock volume, open price, and close price.
 
-**4. Calculated Values**
+2. **Column Creation**
+Adds new columns for Ticker, Yearly Change, Percent Change, and Total Stock Volume.
 
-The script calculates the following values correctly and displays them in the output:
- 
-  Greatest % Increase
-  
-  Greatest % Decrease
-  
-  Greatest Total Volume
+3. **Conditional Formatting**
+Highlights positive yearly changes in green and negative changes in red.
 
-**5. Looping Across Worksheet**
+4. **Metrics Calculations**
+Computes:
+- Greatest % Increase
+- Greatest % Decrease
+- Greatest Total Volume
 
-The VBA script can run on all sheets successfully, looping through each sheet and performing the data analysis.
+5. **Looping Through Worksheets**
+The script dynamically processes all sheets, ensuring automation across multiple datasets.
 
-Stock Data year 2018
+Stock Data Year 2018
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/d7193e43-46cf-4ed7-93a7-0ac05147ebc1)
 
-Stock Data year 2019
+Stock Data Year 2019
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/224b5101-a287-4c19-bb1f-aaf35c6b1a31)
 
-Stock Data year 2020
+Stock Data Year 2020
 
 ![Image 7-30-23 at 10 25 AM](https://github.com/jessnguyen9/VBA-challenge/assets/128268114/310771a5-8648-43ac-8d28-5be6a26448f0)
 
+## Dependencies
+Microsoft Excel with VBA enabled.
 
+## Conclusion
+This VBA script streamlines stock market data analysis, automating key calculations and providing actionable insights efficiently.
 
 
 
